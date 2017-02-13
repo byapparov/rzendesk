@@ -1,0 +1,18 @@
+Package: retl
+Type: Package
+Title: Extract data from Zendesk using incremetal API
+Version: 0.0.1
+Date: 2017-02-10
+Author: byapparov@gmail.com
+Maintainer: Bulat Yapparov <byapparov@gmail.com>
+Depends:
+Description: Package allows to extract users and tickets from zendesk via incremental API. 
+License: GPL-2
+LazyData: TRUE
+Suggests:
+    testthat,
+    httptest
+RoxygenNote: 6.0.1
+Imports:
+    data.table,
+    httr
